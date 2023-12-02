@@ -17,7 +17,7 @@ Use the `train.py` script to train a new GPT-2 model.
 
 Example:
 ```
-python train.py --data_dir ./data/my_data.txt --model_variant gpt2-large --output_dir ./models/gpt2-large-model --num_train_epochs 3 --batch_size 8
+python train.py --data_dir ./data --model_variant gpt2-large --output_dir ./models/gpt2-large-model --num_train_epochs 3 --batch_size 8
 ```
 
 ## Generating Responses
